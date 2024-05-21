@@ -1,0 +1,74 @@
+.maincontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background-color: rgba(48, 27, 82, 1);
+  height: 100vh;
+  font-family: Roboto;
+}
+.innercontainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 400px;
+}
+.leftcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.rightcontent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: gainsboro;
+  height: 350px;
+  width: 350px;
+  border-radius: 25px;
+  color: rgba(48, 27, 82, 1);
+  gap: 10px;
+}
+.inputBox {
+  /* padding: 5px; */
+  border-radius: 16px;
+  width: 75%;
+  height: 30px;
+  padding: 5px;
+  border: solid 2px grey;
+}
+.forgetpassword {
+  color: rgba(48, 27, 82, 1);
+  font-size: 18px;
+  margin-right: 60px;
+}
+.buttons {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+.loginbtn {
+  background-color: rgba(48, 27, 82, 1);
+  color: white;
+  width: 120px;
+  height: 35px;
+  border-radius: 15px;
+  font-size: 16px;
+}
+.signupbtn {
+  color: white;
+  background-color: red;
+  width: 120px;
+  height: 35px;
+  border-radius: 15px;
+  font-size: 16px;
+}
